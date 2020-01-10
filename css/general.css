@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url("/fonts/ProximaNova-Reg.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url("/fonts/ProximaNova-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ProximaNovaExtraBold;
+    src: url("/fonts/ProximaNova-Extrabold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+[class*="col-"], .container {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-family: ProximaNovaBold, Helvetica, sans-serif;
+}
+
+.header-image {
+    height: 410px;
+    width: 100%;
+    background-image: url("../assets/header-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-text-container {
+    padding: 50px;
+}
+
+.header-text {
+    margin: 0;
+    color: white;
+    font-size: 54px;
+    font-family: ProximaNovaExtraBold, Helvetica, sans-serif;
+}
+
+.heading1 {
+    margin: 0;
+    font-size: 18px;
+    font-family: ProximaNovaBold, Helvetica, sans-serif;
+}
+
+.heading2 {
+    margin: 0;
+    font-size: 17px;
+    font-family: ProximaNovaRegular, Helvetica, sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    display: inline-table;
+}
+
+.star.filled {
+    background-image: url("../assets/filled-star.png");
+}
+
+.star.empty {
+    background-image: url("../assets/empty-star.png");
+}
+
+.reviews-count {
+    font-size: 18px;
+    font-family: ProximaNovaRegular, Helvetica, sans-serif;
+}
+
+.benefits, .approval-odds {
+    font-size: 15px;
+    font-family: ProximaNovaRegular, Helvetica, sans-serif;
+}
+
+.benefits li {
+    margin: 25px;
+}
+
+.show-more {
+    background: none;
+    border: none;
+    color: #1194F6
+}
+
+.rating {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    font-size: 15px;
+    font-family: ProximaNovaBold, Helvetica, sans-serif;
+    color: white;
+}
+
+.btn-very-good {
+    background-color: #59D8D1;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.btn-apply-now {
+    width: 41.66%;
+    padding: 13px;
+    background-color: #FA6E3D;
+    border: none;
+    border-radius: 10px;
+}
+
+hr {
+    border: 1px solid #7F949C;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: ProximaNovaBold, Helvetica, sans-serif;
+    color: #1194F6;
+}
+
+.navigation-text {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .navigation-text {
+        display: inline;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+    .header-image {
+        height: 530px;
+    }
+    .header-text {
+        font-size: 102px;
+    }
+    .heading1 {
+        font-size: 30px;
+    }
+    .heading2 {
+        font-size: 20px;
+    }
+    .card {
+        padding: 40px 50px 40px 50px;
+    }
+    .rating {
+        display: inherit;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+.header-box {
+    background-color: #23123A;
+    height: 55px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.theme-content {
+    background-color: #F1F6F9;
+    padding: 30px;
+}
+
+.heading3 {
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.float-right {
+    float: right;
+}
