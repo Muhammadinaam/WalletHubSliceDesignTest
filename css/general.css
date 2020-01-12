@@ -24,6 +24,11 @@
     font-style: normal;
 }
 
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
 [class*="col-"] {
     float: left;
 }
@@ -149,7 +154,7 @@ hr {
     border: 1px solid #7F949C;
 }
 
-a {
+.a-link {
     text-decoration: none;
     font-size: 18px;
     font-family: ProximaNovaBold, Helvetica, sans-serif;
