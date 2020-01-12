@@ -138,7 +138,7 @@
 }
 
 .btn-apply-now {
-    width: 41.66%;
+    width: 100%;
     padding: 13px;
     background-color: #FA6E3D;
     border: none;
@@ -162,6 +162,9 @@ a {
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .btn-apply-now {
+        width: 41.66%;
+    }
     .navigation-text {
         display: inline;
     }
