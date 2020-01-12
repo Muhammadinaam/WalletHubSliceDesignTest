@@ -53,6 +53,7 @@
     background-image: url("../assets/header-image.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
 }
 
 .header-text-container {
